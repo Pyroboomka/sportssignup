@@ -1,0 +1,38 @@
+{
+  "name": "kojs2-presentation-examples",
+  "version": "1.0.0",
+  "description": "Presentation of Koa v2. The new framework for micro services to the ES2017 style",
+  "main": "01_sync_json.js",
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "bcrypt": "^3.0.0",
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "config": "*",
+    "knex": "^0.15.2",
+    "koa": "^2.0.0",
+    "koa-body": "*",
+    "koa-convert": "*",
+    "koa-logger": "^3.2.0",
+    "koa-passport": "^4.1.0",
+    "koa-router": "^7.0.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa2"
+  ],
+  "author": "Oleg Cherniy <oleg.cherniy@gmail.com>",
+  "license": "MIT"
+}
